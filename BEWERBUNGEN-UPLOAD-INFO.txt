@@ -1,0 +1,48 @@
+SB Recruiting – Bewerbungsformular mit CV und Anhängen
+=====================================================
+
+WAS NEU IST
+- Bei "Fachkraft / Bewerber" und "Ausbildungsinteressiert" werden Uploadfelder angezeigt.
+- Ein Lebenslauf (PDF, DOC, DOCX) ist Pflicht: max. 5 MB.
+- Bis zu vier optionale Anhänge (PDF, DOC, DOCX, JPG, PNG): je max. 5 MB.
+- Alle Dateien zusammen: max. 15 MB.
+- Der Besucher bestätigt, die Datenschutzhinweise gelesen zu haben.
+- Gilt auch für die französische Seite /fr/contact.html.
+- Für Unternehmensanfragen bleibt die lokale Text-Vorschau wie vorher.
+
+WICHTIG: ECHTER VERSAND IST HOSTINGABHÄNGIG
+- Das Verzeichnis enthält jetzt send-bewerbung.php als Server-Endpunkt.
+- Beim Veröffentlichen alle Dateien einschließlich send-bewerbung.php hochladen.
+- Auf GitHub Pages und beim direkten Öffnen von HTML-Dateien kann PHP NICHT
+  laufen; dort wird ausdrücklich kein Dokumentenversand angeboten.
+- Benötigt HTTPS, PHP 8+, PHP-Dateiuploads, PHP-Erweiterung fileinfo und
+  funktionierenden PHP-mail()-Versand des Hosters.
+- Das Formular sendet E-Mails mit CV und Anhängen an sb.recruiting@hotmail.com.
+- Das PHP-Skript nimmt nur echte PDF-/Word-/JPG-/PNG-Dateien an. Uploads
+  werden nicht dauerhaft als öffentliche Serverdatei gespeichert.
+- Bitte vor der Live-Schaltung ein Postfach der eigenen Domain für
+  "website@IHRE-DOMAIN" einrichten oder die Absenderadresse im PHP-Skript
+  (Variable $fromAddress) auf ein verifiziertes Postfach der eigenen Domain
+  einstellen. Sonst kann die Zustellung scheitern, auch wenn mail() 'true'
+  liefert. Auf dem Hosting unbedingt einen Probeversand durchführen und
+  den Eingang samt Anhängen prüfen, auch im Spam-Ordner.
+- In der PHP-Konfiguration ggf. upload_max_filesize mindestens 5M und
+  post_max_size mindestens 21M sowie passende mail()-Einstellungen setzen.
+- Die Datenschutzhinweise sind weiterhin als Vorschau gekennzeichnet und
+  müssen VOR öffentlicher Nutzung professionell vervollständigt werden:
+  Verantwortlicher, Auftragsverarbeiter, konkrete Hosting- und E-Mail-
+  Dienstleister, Rechtsgrundlagen, Empfänger, Löschfristen und Betroffenenrechte.
+- Bewerbungsdokumente sind personenbezogene Daten. Bitte keinen öffentlichen
+  Launch ohne sichere, getestete Übermittlung und passende Datenschutzhinweise.
+- Die Funktion bestätigt nur, dass der Hostingserver die Nachricht zur
+  Zustellung angenommen hat; endgültige Zustellung erfordert Posteingang-Test.
+
+FRANÇAIS (bref)
+- Le CV est obligatoire (PDF/DOC/DOCX, 5 Mo max.).
+- Jusqu'à 4 pièces jointes facultatives (5 Mo chacune, 15 Mo au total).
+- L'envoi réel exige un hébergement HTTPS avec PHP et messagerie configurée.
+- GitHub Pages et l'aperçu local ne peuvent pas transmettre les fichiers.
+- Tester la réception à sb.recruiting@hotmail.com avant publication.
+- Finaliser les mentions de confidentialité avant de collecter les candidatures.
+
+KONTAKT/CONTACT: Der Bewerbungsbereich erscheint jetzt immer sichtbar unter den Kontaktfeldern. Beim Klick auf „Jetzt mit Lebenslauf bewerben“ wird die Bewerberrolle ausgewählt und die Uploadfelder werden freigeschaltet. Französisch: „Postuler avec mon CV“. Für andere Rollen wird keine Datei übertragen.

@@ -1,0 +1,18 @@
+SB Recruiting – Bildquellen für die vier Fotokarten unter dem Hero
+Alle vier neuen Fotos: Pexels, kostenlos nutzbare Fotos.
+Die Bilder werden beim Besuch online von images.pexels.com geladen.
+Ohne Verbindung wird das vorherige lokale Bild als Fallback angezeigt.
+
+Bildquellen:
+1. Hamburg, Germany – Travel with Lenses
+   https://www.pexels.com/photo/der-spiegel-office-building-by-river-in-hamburg-21750950/
+   https://images.pexels.com/photos/21750950/pexels-photo-21750950.jpeg?auto=compress&cs=tinysrgb&w=1400
+2. Berlin, Germany – Wolfgang Weiser
+   https://www.pexels.com/photo/construction-work-on-road-16211022/
+   https://images.pexels.com/photos/16211022/pexels-photo-16211022.jpeg?auto=compress&cs=tinysrgb&w=1400
+3. Berlin, Germany – Simge Tek
+   https://www.pexels.com/photo/hall-in-library-17373688/
+   https://images.pexels.com/photos/17373688/pexels-photo-17373688.jpeg?auto=compress&cs=tinysrgb&w=1400
+4. Berlin, Germany – Dennis Wolfram
+   https://www.pexels.com/photo/people-waiting-inside-the-train-station-8625503/
+   https://images.pexels.com/photos/8625503/pexels-photo-8625503.jpeg?auto=compress&cs=tinysrgb&w=1400
