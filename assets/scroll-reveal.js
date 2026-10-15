@@ -10,6 +10,7 @@
     ['main .section-intro', 'reveal-up'],
     ['main .guide-heading', 'reveal-up'],
     ['main .pathway-card', 'reveal-up'],
+    ['main .accompaniment-card', 'reveal-up'],
     ['main .requirement-panel', 'reveal-up'],
     ['main .guide-law-aside', 'reveal-left'],
     ['main .guide-accordion details', 'reveal-up'],
