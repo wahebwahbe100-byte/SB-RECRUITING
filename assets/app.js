@@ -75,10 +75,8 @@
   }
   function toggleApplicationFields() {
     const active = isApplicant();
-    // Always present the application section on Kontakt / Contact.
-    // File controls are enabled only for candidate/training roles because
-    // other inquiries are drafts and must not silently discard attachments.
-    uploadPanel.hidden = false;
+    // Application documents belong only to candidate and training inquiries.
+    uploadPanel.hidden = !active;
     applicationStart.hidden = active;
     cv.required = active;
     cv.disabled = !active;
